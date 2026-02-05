@@ -6,5 +6,5 @@
 
 ### Here is the data presented for the service admin in WHMCS
 
-![image](https://user-images.githubusercontent.com/81689153/223082394-969a1a84-8b52-4506-94a7-64a93f689b74.png)
+<img width="1666" height="842" alt="image" src="https://github.com/user-attachments/assets/48993a40-dc1b-4397-b927-ac8f46b679dd" />
 
