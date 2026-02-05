@@ -49,7 +49,7 @@ The module is used to create customer accounts on the previously prepared Nextcl
 
 - - - - - -
 
->WHMCS minimal version: 8 +
+>WHMCS minimal version: 9 +
 
 >Nextcloud minimal version: 20+
 
