@@ -5,6 +5,16 @@
 
 ---
 
+## v4.1.0 (30-09-2026)
+
+- **Isolated Cron Synchronization & Disk Monitoring.** Scheduled disk statistics and usage calculations are now individually protected for each Nextcloud service with dedicated error logging. Temporary server unreachability or API timeouts will never abort the daily WHMCS cron job.
+- **Strict PHP 8.2+ Compatibility & Type Hardening.** Fully typed property assignments across usage history and quota limits, preventing unexpected type errors on PHP 8.1, 8.2, and 8.3 environments.
+- **Zero-Touch Settings Auto-Migration.** Existing Nextcloud products automatically upgrade their configuration options into modern unified settings (`configoption24`) directly in the database without manual updates.
+- **Enhanced WHMCS 9 Select2 UX & Hook Resilience.** Sidebar menu hooks and admin alerts are guarded by error boundaries, and dynamic settings injection has been upgraded for seamless compatibility with Select2 in WHMCS 9.
+- **Clean Module Logging.** Excluded repetitive local database license verification checks (`License_Verification (db)`) from the WHMCS Module Log, logging exclusively online verification transactions to keep diagnostic logs clean.
+
+---
+
 ## v4.0.0 (02-09-2026)
 
 - Full compatibility with WHMCS 8.x and WHMCS 9+
